@@ -30,7 +30,7 @@ RUN set -x && \
     git config --global advice.detachedHead false && \
     python3 -m pip install --no-cache-dir --upgrade pip && \
     # Installing plex_dupefinder
-    git clone --depth=1 https://github.com/l3uddz/plex_dupefinder /opt/plex_dupefinder && \
+    git clone --depth=1 https://github.com/lduda007/plex_dupefinder.git /opt/plex_dupefinder && \
     ln -s /opt/plex_dupefinder/plex_dupefinder.py /usr/local/bin/plex_dupefinder && \
     pushd /opt/plex_dupefinder && \
     mkdir -p /config && \
